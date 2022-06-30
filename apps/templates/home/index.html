@@ -1,0 +1,89 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+
+    <div class="container-fluid py-4" style="background-color:#fff">
+
+     <!-- <video class="tab" controls>Your browser does not support the &lt;video&gt; tag.
+          <source src="http://192.168.252.58:5000/output.avi"/>
+        </video> -->
+     <div class="row mt-4" style="height:250px">
+          <div class="col-lg-6 col-md-6 mt-4 mb-4">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/132cc106-2c72-4621-acee-5a7b2c682d25?height=200px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:45%"></iframe>
+
+        </div>
+ <div class="col-lg-6 col-md-6 mt-4 mb-4" style="padding-left:30px">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/1e6b4e9c-0867-4b5c-b406-c7b47f2a949d?height=400px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:45%"></iframe>
+
+        </div>
+      </div>
+
+        <div class="row mt-4" style="height:250px">
+          <div class="col-lg-6 col-md-6 mt-4 mb-4">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/dfa70bf2-c988-4005-b80c-739abfb0f34c?height=400px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:75%"></iframe>
+
+        </div>
+ <div class="col-lg-6 col-md-6 mt-4 mb-4" style="padding-left:30px">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/2a574bd3-39d3-414f-ab08-4722c98746cf?height=400px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:75%"></iframe>
+
+        </div>
+      </div>
+      <div class="row mt-4" style="height:250px">
+          <div class="col-lg-6 col-md-6 mt-4 mb-4">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/025f832f-ff3e-46d8-9171-4bbd9746e80a?height=400px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:75%"></iframe>
+
+        </div>
+ <div class="col-lg-6 col-md-6 mt-4 mb-4" style="padding-left:30px">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/1dd24b6d-4118-4c58-b6c0-9a7a613dfbf3?height=400px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:75%"></iframe>
+
+        </div>
+      </div>
+      <div class="row mt-4" style="height:250px">
+          <div class="col-lg-6 col-md-6 mt-4 mb-4">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/ae53fc20-2c91-40b2-9ffc-582fb129a59e?height=400px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:75%"></iframe>
+
+        </div>
+ <div class="col-lg-6 col-md-6 mt-4 mb-4" style="padding-left:30px">
+
+     <iframe width="800" height="1200"  scrolling="no"
+             src="https://chart-embed.service.newrelic.com/herald/3fe9a0a5-a8b3-4b52-ac45-034d37c2f30f?height=400px&timepicker=true" frameborder="0"
+             style="position:absolute;width:50%;height:75%"></iframe>
+
+        </div>
+      </div>
+      {% include 'includes/footer.html' %}
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+{% endblock javascripts %}
